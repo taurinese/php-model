@@ -1,0 +1,20 @@
+{
+    "name": "enzo/php-users",
+    "authors": [
+        {
+            "name": "Enzo Taurines",
+            "email": "enzodylan.taurines@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.3",
+        "fzaninotto/faker": "^1.5",
+        "nesbot/carbon": "^2.43"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "description": ""
+}
