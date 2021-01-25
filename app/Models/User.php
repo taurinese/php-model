@@ -121,6 +121,6 @@ class User extends Model
     }
 
     public function getFullName(){
-        return $this->getFirstName() . $this->getLastName();
+        return $this->getFirstName() . ' ' . $this->getLastName();
     }
 }
