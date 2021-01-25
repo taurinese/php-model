@@ -26,11 +26,12 @@ $users = $query->fetchAll(PDO::FETCH_CLASS, User::class);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-    <table>
-        <thead>
+    <table class="table">
+        <thead class="text-center">
             <tr>
                 <th>Date</th>
                 <th>Full name</th>
